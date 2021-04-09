@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Package3(failed)">
+    <classes>
+      <class name="Package.sendkudostest">
+        <methods>
+          <include name="sendkudo1"/>
+          <include name="sendkudo"/>
+          <include name="Bsuite"/>
+        </methods>
+      </class> <!-- Package.sendkudostest -->
+    </classes>
+  </test> <!-- Package3(failed) -->
+  <test thread-count="5" name="Package6(failed)">
+    <classes>
+      <class name="Package.mod6test">
+        <methods>
+          <include name="self"/>
+          <include name="Activity"/>
+          <include name="Kudotm"/>
+          <include name="Bsuite"/>
+        </methods>
+      </class> <!-- Package.mod6test -->
+    </classes>
+  </test> <!-- Package6(failed) -->
+</suite> <!-- Failed suite [Suite] -->
